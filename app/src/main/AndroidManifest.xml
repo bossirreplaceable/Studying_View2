@@ -18,7 +18,10 @@
         </activity>
 
         <activity android:name=".lsn21_md_anim.A_MDAnimation" />
-        <activity android:name=".lsn20_property.B_SafariActivity"/>
+        <activity android:name=".lsn20_property.B_SafariActivity" />
+        <activity android:name=".lsn21_md_anim.A_Aactivity" />
+        <activity android:name=".lsn21_md_anim.A_Bactivity" />
+        <activity android:name=".lsn21_md_anim.A_Cactivity" />
     </application>
 
 </manifest>

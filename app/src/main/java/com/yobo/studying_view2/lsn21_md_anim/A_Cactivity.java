@@ -20,6 +20,10 @@ public class A_Cactivity extends AppCompatActivity {
         setContentView(R.layout.a_a_ativity);
     }
 
+
+
+
+
     public  void go2B(View v){
 
 

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context="com.yobo.studying_view2.MainActivity">
 
 
@@ -14,10 +14,16 @@
         android:text="MD动画" />
 
     <Button
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:onClick="clickB"
         android:text="卡片翻转特效" />
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="clickA2B"
+        android:layout_gravity="right"
+        android:text="Activity跳转动画" />
 
 </LinearLayout>
