@@ -15,13 +15,13 @@
 
     <ImageView
         android:id="@+id/b_iv2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:clickable="true"
         android:onClick="clickBiv2"
         android:scaleType="fitXY"
-        android:src="@drawable/zbs"
-        android:visibility="gone" />
-
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/b_icon1"
+        android:visibility="invisible" />
 
 </RelativeLayout>

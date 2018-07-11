@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context="com.yobo.studying_view2.MainActivity">
 
 
@@ -12,6 +12,7 @@
         android:layout_height="50dp"
         android:onClick="clickMdAnim"
         android:text="MD动画" />
+
     <Button
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -19,4 +20,4 @@
         android:text="卡片翻转特效" />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
