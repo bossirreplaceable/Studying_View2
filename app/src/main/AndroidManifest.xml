@@ -22,6 +22,9 @@
         <activity android:name=".lsn21_md_anim.A_Aactivity" />
         <activity android:name=".lsn21_md_anim.A_Bactivity" />
         <activity android:name=".lsn21_md_anim.A_Cactivity" />
+        <activity android:name=".lsn23_svg.C_SvgActivity"/>
+        <activity android:name=".lsn23_svg.C_SvgActivity2"/>
+        <activity android:name=".lsn23_svg.C_SvgActivity3"/>
     </application>
 
 </manifest>
